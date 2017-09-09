@@ -1,0 +1,8 @@
+{
+	"vcs": [
+        ["git", "git"],
+        ["svn", "svn"],
+        ["bzr", "bzr"],
+        ["hg" , "/usr/local/bin/hg"]
+    ],
+}

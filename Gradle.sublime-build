@@ -1,0 +1,16 @@
+{
+	"shell_cmd": "${project_path}/gradlew assemble",
+	"working_dir": "${project_path:${folder}}",
+	"file_regex": "^:library:compile\\w+Java(/.+):([0-9]*): error:()\\s+(.*)",
+
+	"variants": [
+		{
+			"shell_cmd": "${project_path}/gradlew clean",
+			"name": "Clean"
+		},
+		{
+			"shell_cmd": "${project_path}/gradlew installDebug",
+			"name": "Install (Android)"
+		}
+	]
+}

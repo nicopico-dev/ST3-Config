@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ADBView",
+		"BracketHighlighter",
+		"Browser Refresh",
+		"CodeComplice",
+		"Dart",
+		"DashDoc",
+		"Dockerfile Syntax Highlighting",
+		"Emmet",
+		"FavoriteFiles",
+		"File Navigator",
+		"FileManager",
+		"Git",
+		"Gradle_Language",
+		"Indent XML",
+		"JavaImports",
+		"JSON Reindent",
+		"Keymaps",
+		"Kotlin",
+		"Markdown Preview",
+		"Modific",
+		"Open in Default Application",
+		"Open-Include",
+		"Package Control",
+		"PackageDev",
+		"Python 3",
+		"rsub",
+		"Swift",
+		"Terminal",
+		"Theme - Monokai Pro",
+		"ToDone"
+	]
+}

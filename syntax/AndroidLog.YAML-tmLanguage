@@ -1,0 +1,64 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Android Logs
+scopeName: text.android_logs
+fileTypes: [log]
+uuid: 50d81c69-4898-4545-998b-0ab147e783f2
+
+patterns:
+- comment: header
+  name: header.content
+  match: ^(\*+).*$
+  captures:
+    '1':  { name: header.border }
+
+- comment: entry date
+  name: log.entry.date
+  match: '^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}'
+
+- comment: info tag
+  match: '(I)(/[^:]+):'
+  captures:
+    '1':  { name: log.entry.level.info }
+    '2':  { name: log.entry.tag.info }
+
+- comment: warn tag
+  match: '(W)(/[^:]+):'
+  captures:
+    '1':  { name: log.entry.level.warn }
+    '2':  { name: log.entry.tag.warn }
+
+- comment: error tag
+  match: '(E)(/[^:]+):'
+  captures:
+    '1':  { name: log.entry.level.error }
+    '2':  { name: log.entry.tag.error }
+
+- comment: other tags
+  match: '(\w)(/[^:]+):'
+  captures:
+    '1':  { name: log.entry.level }
+    '2':  { name: log.entry.tag }
+
+- comment: url
+  name: log.entry.content.url
+  match: 'http(?:s?)://\S+'
+
+- comment: sql
+  name: log.entry.content.sql
+  match: '(?:SELECT|UPDATE|DELETE) .*'
+
+- comment: stacktrace
+  name: log.stacktrace
+  match: '\w*?(?:Exception|Error) (?:.*? )((?:\w+\.)*\w+)$'
+  captures:
+    '1':  { name: log.stacktrace.exception }
+
+- comment: stacktrace2
+  name: log.stacktrace
+  match: '\s+at ((?:\w+\.)*\w+)\((\w+\.\w+):(\d+)\)'
+  captures:
+    '1':  { name: log.stacktrace.class }
+    '2':  { name: log.stacktrace.file }
+    '3':  { name: log.stacktrace.line }
+...

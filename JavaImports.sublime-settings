@@ -1,0 +1,6 @@
+{
+    "java_import_path": [
+        "/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip",
+        "/usr/local/var/lib/android-sdk/platforms/android-24/android.jar"
+    ]
+}

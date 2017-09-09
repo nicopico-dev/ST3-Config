@@ -1,0 +1,51 @@
+{
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro.tmTheme",
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".idea",
+		"__pycache__"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"ActionScript",
+		"AppleScript",
+		"ASP",
+		"Clojure",
+		"D",
+		"Erlang",
+		"Go",
+		"Graphviz",
+		"Haskell",
+		"LaTeX",
+		"Lisp",
+		"Lua",
+		"Matlab",
+		"OCaml",
+		"Pascal",
+		"Perl",
+		"R",
+		"Rails",
+		"RestructuredText",
+		"Ruby",
+		"Scala",
+		"TCL",
+		"Textile",
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"save_on_focus_lost": true,
+	"show_definitions": false,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "Monokai Pro.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
