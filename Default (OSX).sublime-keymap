@@ -1,5 +1,8 @@
 [
     { "keys": ["super+k", "super+r"], "command": "reveal_in_side_bar"},
+    { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
+    //{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    { "keys": ["super+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
     {
       "keys": ["super+shift+r"], 
       "command": "browser_refresh", "args": {
