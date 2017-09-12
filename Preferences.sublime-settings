@@ -1,6 +1,7 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Theme - Monokai Pro/Monokai Pro.tmTheme",
 	"folder_exclude_patterns":
 	[
