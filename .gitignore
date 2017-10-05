@@ -6,3 +6,4 @@ Package Control.ca-bundle
 Package Control.*-ca-bundle
 oscrypto-ca-bundle.crt
 Theme - */
+.DS_Store
