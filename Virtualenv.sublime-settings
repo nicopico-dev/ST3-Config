@@ -1,0 +1,7 @@
+{
+    "executable": "python3 -m virtualenv",
+    "virtualenv_directories": [
+        "~/.virtualenvs", 
+        "~/venv"
+    ],
+}
