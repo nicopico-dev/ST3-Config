@@ -15,6 +15,5 @@
     { "keys": ["f1"], "command": "dash_doc"},
     { "keys": ["super+alt+p"], "command": "project_manager", "args": {"action": "switch"} },
     { "keys": ["f3"], "command": "find_under" },
-    { "keys": ["shift+f3"], "command": "find_under_prev" },
-    { "keys": ["super+shift+r"], "command": "goto_symbol_in_project" },
+    { "keys": ["shift+f3"], "command": "find_all_under" },
 ]
