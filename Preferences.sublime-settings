@@ -46,5 +46,6 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"theme": "Monokai Pro.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"word_wrap": false
 }
