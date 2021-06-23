@@ -14,7 +14,7 @@ patterns:
 
 - comment: entry date
   name: log.entry.date
-  match: '^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}'
+  match: '^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}(?:\.\d{3})?'
 
 - comment: info tag
   match: '(I)(/[^:]+):'
@@ -56,7 +56,7 @@ patterns:
 
 - comment: stacktrace2
   name: log.stacktrace
-  match: '\s+at ((?:\w+\.)*\w+)\((\w+\.\w+):(\d+)\)'
+  match: '\s+at ((?:\w+\.)*\w+)\((.+?):(\d+)\)'
   captures:
     '1':  { name: log.stacktrace.class }
     '2':  { name: log.stacktrace.file }
