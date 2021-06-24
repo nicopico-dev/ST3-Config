@@ -21,6 +21,7 @@
 		"Clojure",
 		"D",
 		"Erlang",
+		"Git",
 		"Go",
 		"Graphviz",
 		"Haskell",
@@ -37,7 +38,7 @@
 		"Scala",
 		"TCL",
 		"Textile",
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
