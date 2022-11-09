@@ -1,4 +1,4 @@
 {
-    "enabled_parsers": ["markdown"],
+    "enabled_parsers": ["gitlab"],
     "enable_autoreload": true
 }

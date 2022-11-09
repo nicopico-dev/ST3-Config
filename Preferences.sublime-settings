@@ -3,14 +3,20 @@
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"dart_sdk_path": "/Users/nicopico/Applications/flutter/bin/cache/dart-sdk",
 	"folder_exclude_patterns":
 	[
-		".svn",
-		".git",
-		".hg",
-		"CVS",
+		".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*",
 		".idea",
-		"__pycache__"
+		"__pycache__",
+	],
+	"binary_file_patterns": [
+		"*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip",
+		"build/**",
+		"**/build/**",
+		"node_modules/**",
+		"*.bin",
+		"*.sqlite"
 	],
 	"highlight_line": true,
 	"ignored_packages":
@@ -50,4 +56,7 @@
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false,
 	"show_git_status": false,
+	/*"font_size": 18,*/
+	/*"font_size": 23,*/
+	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
 }
