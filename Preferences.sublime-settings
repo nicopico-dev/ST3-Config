@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Monokai Classic.sublime-color-scheme",
 	"dart_sdk_path": "/Users/nicopico/Applications/flutter/bin/cache/dart-sdk",
 	"folder_exclude_patterns":
 	[
@@ -52,7 +52,7 @@
 	"show_definitions": false,
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Monokai Pro.sublime-theme",
+	"theme": "Monokai Classic.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false,
 	"show_git_status": false,
