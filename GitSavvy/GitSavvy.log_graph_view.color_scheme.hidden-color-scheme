@@ -4,7 +4,7 @@
 	"globals":
 	{
 		"accent": "#e6db74",
-		"activeGuide": "#57584f",
+		"active_guide": "#57584f",
 		"background": "#272822",
 		"block_caret": "#919288",
 		"bracket_contents_options": "underline",
@@ -32,7 +32,7 @@
 		"selection_corner_style": "round",
 		"shadow": "#00000000",
 		"shadow_width": "0",
-		"stackGuide": "#3b3c35",
+		"stack_guide": "#3b3c35",
 		"tags_options": "stippled_underline"
 	},
 	"name": "Monokai Classic",
@@ -499,6 +499,11 @@
 			"scope": "source.json meta.mapping.key string"
 		},
 		{
+			"foreground": "#f92672",
+			"name": "YAML keys",
+			"scope": "source.yaml meta.mapping.key string"
+		},
+		{
 			"foreground": "#fdfff1",
 			"name": "Object members",
 			"scope": "meta.object.member"
@@ -567,6 +572,11 @@
 			"Name": "Punctuation hard line break in Markdown",
 			"background": "#ae81ff",
 			"scope": "meta.paragraph.markdown meta.dummy.line-break, meta.paragraph.markdown meta.hard-line-break.markdown"
+		},
+		{
+			"Name": "Punctuation in markdown links",
+			"foreground": "#a6e22e",
+			"scope": "markup.underline.link punctuation"
 		},
 		{
 			"background": "#f9267259",
