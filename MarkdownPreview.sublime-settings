@@ -1,4 +1,4 @@
 {
-    "enabled_parsers": ["gitlab"],
+    "enabled_parsers": ["github"],
     "enable_autoreload": true
 }
