@@ -3,17 +3,8 @@
     { "keys": ["super+k", "super+m"], "command": "toggle_minimap" },
     { "keys": ["ctrl+@"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
     { "keys": ["super+alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
-    {
-      "keys": ["super+alt+r"], 
-      "command": "browser_refresh", "args": {
-        "auto_save": true,
-        "delay": 0.5,
-        "activate": false,
-        "browsers" : ["chrome"]
-      }
-    },
-    { "keys": ["f1"], "command": "dash_doc"},
-    { "keys": ["super+alt+p"], "command": "project_manager", "args": {"action": "switch"} },
+    { "keys": ["super+alt+p"], "command": "project_manager", "args": {"action": "open_project"} },
+    { "keys": ["super+shift+alt+p"], "command": "project_manager", "args": {"action": "open_project_in_new_window"} },
     { "keys": ["f3"], "command": "find_under" },
     { "keys": ["shift+f3"], "command": "find_all_under" },
 ]
