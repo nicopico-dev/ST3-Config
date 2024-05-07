@@ -1,10 +1,10 @@
 {
-	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
-	"installed_packages":
-	[
+	"downloader_precedence": {
+		"windows": ["wininet", "oscrypto", "urllib"],
+		"osx": ["curl", "urllib", "oscrypto"],
+		"linux": ["urllib", "oscrypto", "curl", "wget"],
+	},
+	"installed_packages": [
 		"ADBView",
 		"ANSIescape",
 		"Babel",
@@ -12,7 +12,6 @@
 		"Browser Refresh",
 		"Dart",
 		"Dartlight",
-		"Decent Swift Syntax",
 		"Dockerfile Syntax Highlighting",
 		"Edit Command Palette",
 		"FavoriteFiles",
@@ -29,6 +28,7 @@
 		"Kotlin",
 		"Language - French - Français",
 		"MarkdownPreview",
+		"Mermaid",
 		"Open in Default Application",
 		"Package Control",
 		"PackageDev",
@@ -39,11 +39,15 @@
 		"Smali",
 		"SqlBeautifier",
 		"Stencil",
+		"Swift Next",
 		"SyntaxFold",
 		"Terminal",
 		"Theme - Monokai Pro",
 		"ToDone",
 		"TOML",
 		"View Bookmarks",
+	],
+	"in_process_packages":
+	[
 	],
 }

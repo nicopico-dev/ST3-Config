@@ -24,6 +24,7 @@
 		"ActionScript",
 		"AppleScript",
 		"ASP",
+		"Browser Refresh",
 		"Clojure",
 		"D",
 		"Erlang",
@@ -59,4 +60,8 @@
 	/*"font_size": 18,*/
 	/*"font_size": 23,*/
 	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
+	"index_files": true,
+	/*"font_size": 13,*/
+	/*"font_size": 19,*/
+	/*"font_size": 15,*/
 }
