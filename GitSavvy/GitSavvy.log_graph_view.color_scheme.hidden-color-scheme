@@ -90,6 +90,11 @@
 			"scope": "comment variable, comment variable.other"
 		},
 		{
+			"foreground": "#c0c1b5",
+			"name": "PHPDoc keyword",
+			"scope": "comment keyword, comment entity.name.tag, entity.name.tag.documentation"
+		},
+		{
 			"foreground": "#ae81ff",
 			"name": "Comment TODO / FIXME (at least in VSCode Python)",
 			"scope": "comment keyword.codetag.notation"
@@ -534,6 +539,11 @@
 			"scope": "meta.attribute.rust, meta.annotation.rust, variable.language.rust, variable.annotation.rust, meta.annotation.rust string, meta.annotation.rust keyword, meta.annotation.rust keyword.operator, meta.attribute.rust string"
 		},
 		{
+			"foreground": "#ae81ff",
+			"name": "type annotation",
+			"scope": "meta.type variable, meta.type variable.other.readwrite"
+		},
+		{
 			"foreground": "#919288",
 			"name": "Punctuation",
 			"scope": "punctuation"
@@ -541,7 +551,7 @@
 		{
 			"foreground": "#919288",
 			"name": "Punctuation tags",
-			"scope": "punctuation.definition.tag, punctuation.definition.tag source, punctuation.definition.group.begin.ruby, punctuation.definition.group.end.ruby, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.string.end.html source.css"
+			"scope": "punctuation.definition.tag, punctuation.definition.tag source, punctuation.definition.group.begin.ruby, punctuation.definition.group.end.ruby, punctuation.definition.group.begin.css, punctuation.definition.group.end.css, punctuation.definition.string.end.html source.css, punctuation.definition.block, punctuation.definition.parameters.begin, punctuation.definition.parameters.end, punctuation.separator.parameter, punctuation.accessor, punctuation.terminator"
 		},
 		{
 			"foreground": "#fdfff1",
@@ -569,14 +579,19 @@
 			"scope": "punctuation.template-string.element.begin, punctuation.template-string.element.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end, string.quoted.template punctuation.definition.string.begin, string.quoted.template punctuation.definition.string.end, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end"
 		},
 		{
-			"Name": "Punctuation hard line break in Markdown",
 			"background": "#ae81ff",
+			"name": "Punctuation hard line break in Markdown",
 			"scope": "meta.paragraph.markdown meta.dummy.line-break, meta.paragraph.markdown meta.hard-line-break.markdown"
 		},
 		{
-			"Name": "Punctuation in markdown links",
 			"foreground": "#a6e22e",
+			"name": "Punctuation in markdown links",
 			"scope": "markup.underline.link punctuation"
+		},
+		{
+			"foreground": "#919288",
+			"name": "Meta braces",
+			"scope": "meta.brace.round, meta.brace.square, keyword.operator.type.annotation, meta.type storage.modifier.array"
 		},
 		{
 			"background": "#f9267259",
@@ -716,6 +731,11 @@
 			"scope": "storage.type.rust, storage.modifier.const.rust, storage.modifier.dyn.rust, storage.modifier.mut.rust, storage.modifier.static.rust, keyword.other.rust, keyword.other.where.rust"
 		},
 		{
+			"foreground": "#fdfff1",
+			"name": "imported Java libraries",
+			"scope": "storage.modifier.import.java"
+		},
+		{
 			"foreground": "#e6db74",
 			"name": "String",
 			"scope": "string"
@@ -799,7 +819,7 @@
 		{
 			"foreground": "#66d9ef",
 			"name": "Support variables",
-			"scope": "support.variable"
+			"scope": "support.variable, support.variable.property"
 		},
 		{
 			"font_style": "normal",
@@ -816,6 +836,11 @@
 			"foreground": "#ae81ff",
 			"name": "rust specific",
 			"scope": "support.constant.core.rust"
+		},
+		{
+			"foreground": "#6e7066",
+			"name": "comment support",
+			"scope": "comment support, comment support.class"
 		},
 		{
 			"foreground": "#fdfff1",
