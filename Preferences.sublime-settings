@@ -2,8 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": false,
-	"color_scheme": "Monokai Classic.sublime-color-scheme",
-	"dart_sdk_path": "/Users/nicopico/Applications/flutter/bin/cache/dart-sdk",
+	"color_scheme": "Monokai Pro.sublime-color-scheme",
 	"folder_exclude_patterns":
 	[
 		".svn", ".git", ".hg", "CVS", ".Trash", ".Trash-*",
@@ -53,16 +52,12 @@
 	"show_definitions": false,
 	"show_encoding": true,
 	"show_line_endings": true,
-	"theme": "Monokai Classic.sublime-theme",
+	"theme": "Monokai Pro.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false,
 	"show_git_status": false,
 	/*"font_size": 18,*/
 	/*"font_size": 23,*/
 	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
-	"index_files": true,
-	/*"font_size": 13,*/
-	/*"font_size": 19,*/
-	/*"font_size": 15,*/
 	"font_size": 13,
 }
