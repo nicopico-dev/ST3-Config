@@ -1,0 +1,7 @@
+// Settings in here override those in "LSP-Dart/LSP-Dart.sublime-settings"
+{
+    "env": {
+        "FLUTTER_ROOT": "/Users/NICOLAS/Applications/flutter",
+    },
+    "enabled": false,
+}

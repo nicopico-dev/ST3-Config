@@ -56,9 +56,8 @@
 	"translate_tabs_to_spaces": true,
 	"word_wrap": false,
 	"show_git_status": false,
-	/*"font_size": 18,*/
-	/*"font_size": 23,*/
 	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
-	"font_size": 13,
 	"index_files": true,
+	"font_size": 15,
+	"update_check": false,
 }
