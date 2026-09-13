@@ -26,6 +26,7 @@
 		"Browser Refresh",
 		"Clojure",
 		"D",
+		"Dart",
 		"Erlang",
 		"Git",
 		"Go",
@@ -33,6 +34,7 @@
 		"Haskell",
 		"LaTeX",
 		"Lisp",
+		"LSP-Dart",
 		"Lua",
 		"Matlab",
 		"OCaml",
@@ -58,6 +60,6 @@
 	"show_git_status": false,
 	"dictionary": "Packages/Language - French - Français/fr_FR.dic",
 	"index_files": true,
-	"font_size": 15,
+	"font_size": 12,
 	"update_check": false,
 }
