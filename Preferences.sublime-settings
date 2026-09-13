@@ -1,0 +1,9 @@
+{
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"color_scheme": "Monokai Pro.sublime-color-scheme",
+	"theme": "Monokai Pro.sublime-theme",
+	"index_files": true,
+}

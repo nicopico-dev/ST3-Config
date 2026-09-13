@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ANSIescape",
+		"FileManager",
+		"GitSavvy",
+		"Indent XML",
+		"Kotlin",
+		"LSP",
+		"LSP-bash",
+		"LSP-json",
+		"LSP-SourceKit",
+		"MarkdownPreview",
+		"Package Control",
+		"PackageDev",
+		"ProjectManager",
+		"Swift Next",
+		"Theme - Monokai Pro",
+	],
+}
