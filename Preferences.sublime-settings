@@ -9,4 +9,6 @@
 	"highlight_line": true,
 	"close_windows_when_empty": true,
 	"translate_tabs_to_spaces": true,
+	"default_font_size": 14,
+	"font_size": 14,
 }
