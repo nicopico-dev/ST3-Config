@@ -6,4 +6,7 @@
 	"color_scheme": "Monokai Pro.sublime-color-scheme",
 	"theme": "Monokai Pro.sublime-theme",
 	"index_files": true,
+	"highlight_line": true,
+	"close_windows_when_empty": true,
+	"translate_tabs_to_spaces": true,
 }
